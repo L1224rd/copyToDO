@@ -1,1 +1,1 @@
-curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -
+sudo env PATH=$PATH:/usr/bin /usr/lib/node_modules/pm2/bin/pm2 startup systemd -u root --hp /home/root
