@@ -1,1 +1,1 @@
-curl -s https://raw.githubusercontent.com/sivel/speedtest-cli/master/speedtest.py | python -
+curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -
